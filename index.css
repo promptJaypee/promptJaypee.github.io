@@ -1,3 +1,4 @@
+
 .content-body{
       background: linear-gradient(to bottom right, #378c8c 10%, #101e26 100%, #166273);
 }
@@ -112,23 +113,24 @@ h4{
   }
 
 .button-download {
-      background: linear-gradient(to bottom right, #4CAF50, #90ff94, #3b8b3d); /* Green to Light Green */
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
       padding: 15px 30px; /* Adjust padding to increase button size */
       font-size: 16px; /* Adjust font size */
       border-radius: 10px; /* Add border radius for rounded corners */
       font-family: dm sans, sans-serif; /* Specify font family */
       font-weight: bold;
       border: none; /* Remove initial border */
-      transition: background-color 0.5s ease; /* Add transition for background color */
+      /* Add transition for background color */
   }
   
   .button-download:hover {
-      background-color: #1695fc; /* Change background color on hover to blue */
+      background-color: #1695fc;
+      transition: background-color 0.5s ease;/* Change background color on hover to blue */
   }
   
 
   .button-hire {
-      background: linear-gradient(to bottom right, #4CAF50,#90ff94, #3b8b3d); /* Green to Light Green */
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
       padding: 15px 30px; /* Adjust padding to increase button size */
       font-size: 16px; /* Adjust font size */
       border-radius: 10px; /* Add border radius for rounded corners */
@@ -151,25 +153,43 @@ h4{
       padding-top: 1rem;
       font-family: dm sans, sans-serif;
       font-size: 2rem;
-      display: flex;
 }
 
 .about{
       background: linear-gradient(to bottom right, #1b3342, #101e26);
       width: 100%;
-      height: 200px;
+      height: 20rem;
       min-width: 100%;
-      min-height: 100px;
+      min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
 }
 
+.twitteracc{
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
+      padding: 1rem 3rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 3rem;
+      color: rgb(0, 0, 0);
+      font-family: dm sans, sans-serif;
+      border: none;
+      /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 1); */
+}
+
+.abt{
+      display: flex;
+      justify-content: center;
+      padding-left: 60rem;
+      padding-top: 15rem;
+}
+
 .projects{
-      background: linear-gradient(to bottom right, #1b3342, #101e26);
+      background: linear-gradient(to bottom right, #080e13, #101e26);
       width: 100%;
-      height: 200px;
+      height: 20rem;
       min-width: 100%;
-      min-height: 100px;
+      min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
 }
@@ -177,9 +197,9 @@ h4{
 .hireme{
       background: linear-gradient(to bottom right, #1b3342, #101e26);
       width: 100%;
-      height: 200px;
+      height: 20rem;
       min-width: 100%;
-      min-height: 100px;
+      min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
 }
@@ -187,9 +207,9 @@ h4{
 .contact{
       background: linear-gradient(to bottom right, #1b3342, #101e26);
       width: 100%;
-      height: 200px;
+      height: 20rem;
       min-width: 100%;
-      min-height: 100px;
+      min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
 }
@@ -197,9 +217,9 @@ h4{
 .certificates{
       background: linear-gradient(to bottom right, #1b3342, #101e26);
       width: 100%;
-      height: 200px;
+      height: 20rem;
       min-width: 100%;
-      min-height: 100px;
+      min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
 }
@@ -207,9 +227,69 @@ h4{
 .products{
       background: linear-gradient(to bottom right, #1b3342, #101e26);
       width: 100%;
-      height: 200px;
+      height: 20rem;
       min-width: 100%;
-      min-height: 100px;
+      min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
 }
+
+.projects{
+      align-items: center;
+}
+
+.project-card {
+      display: flex;
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
+      width: 18rem; /* Adjust width as needed */
+      height: 25rem;
+      min-width: 10rem;
+      min-height: auto;
+      max-width: 80rem;
+      max-height: auto;
+      border-radius: 5rem;
+      margin-left: 5rem;
+      margin-top: 3rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Vertically center the child */
+      align-items: center; /* Horizontally center the child */
+  }
+  
+  .card-background {
+      padding-top: 3rem;
+      padding-bottom: 5rem;
+      width: 70%;
+      height: auto;
+      border-bottom-left-radius: 10px; /* Adjust border radius to match the parent */
+      border-bottom-right-radius: 10px; /* Adjust border radius to match the parent */
+  }
+  
+
+  .project-card2 {
+      display: flex;
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
+      width: 18rem; /* Adjust width as needed */
+      height: 25rem;
+      min-width: 10rem;
+      min-height: auto;
+      max-width: 80rem;
+      max-height: auto;
+      border-radius: 5rem;
+      margin-top: -25rem;
+      margin-left: 25rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Vertically center the child */
+      align-items: center; /* Horizontally center the child */
+  }
+  
+  .card-background2 {
+      padding-bottom: 9rem;
+      width: 70%;
+      height: auto;
+      border-bottom-left-radius: 10px; /* Adjust border radius to match the parent */
+      border-bottom-right-radius: 10px; /* Adjust border radius to match the parent */
+  }
