@@ -15,7 +15,8 @@
 
 .menu-bar{
       
-      background-color: #0c171d;
+      background: linear-gradient(to bottom right, #0c171d, #00283f);
+
       color: rgb(255, 244, 244);
       padding-top: 3rem;
       padding-bottom: 1rem;
@@ -24,17 +25,6 @@
       position: sticky;
       top:0;
       z-index: 1;
-      /* border-radius: 5rem; */
-
-      /* width: 80%;
-      height: 9rem;
-      min-width: 80%;
-      min-height: 100px;
-      max-width: 80%;
-      max-height: 300px;
-
-      justify-content: center; 
-      display: block; */
 }
 
 .mylogo{
@@ -134,25 +124,27 @@ h4{
       padding: 15px 30px; /* Adjust padding to increase button size */
       font-size: 16px; /* Adjust font size */
       border-radius: 10px; /* Add border radius for rounded corners */
-      font-family: dm sans, sans-serif; /* Specify font family */
+      font-family: 'dm sans', sans-serif; /* Specify font family */
       font-weight: bold;
-      border:none; /* Remove initial border */
+      border: none; /* Remove initial border */
       /* background-size: 200% auto; */
       /* transition: background-position 0.5s ease; */
   }
   
   .button-hire:hover {
-      /* background-position: left center; */
+      /* Reapply the gradient for the hover state */
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50);
       background-color: #1695fc; /* Change background color on hover to blue */
-  } 
+  }
+  
 
 .footer-label{
       display: flex;
       justify-content: center;
       color: #f0faff;
-      padding-top: 1rem;
+      padding-top: 2rem;
       font-family: dm sans, sans-serif;
-      font-size: 2rem;
+      font-size: 3rem;
 }
 
 .about{
@@ -192,6 +184,7 @@ h4{
       min-height: 45rem;
       max-width: 100%;
       max-height: 300px;
+      display: block;
 }
 
 .hireme{
@@ -234,9 +227,6 @@ h4{
       max-height: 300px;
 }
 
-.projects{
-      align-items: center;
-}
 
 .project-card {
       display: flex;
@@ -255,6 +245,16 @@ h4{
       flex-direction: column;
       justify-content: center; /* Vertically center the child */
       align-items: center; /* Horizontally center the child */
+  }
+
+
+.project-label{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 18rem;
+      margin-top: -20rem;
+      font-size: 1.5rem;
+      color: whitesmoke;
   }
   
   .card-background {
@@ -293,3 +293,106 @@ h4{
       border-bottom-left-radius: 10px; /* Adjust border radius to match the parent */
       border-bottom-right-radius: 10px; /* Adjust border radius to match the parent */
   }
+
+
+  .project-card3 {
+      display: flex;
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
+      width: 18rem; /* Adjust width as needed */
+      height: 25rem;
+      min-width: 10rem;
+      min-height: auto;
+      max-width: 80rem;
+      max-height: auto;
+      border-radius: 5rem;
+      margin-top: -25rem;
+      margin-left: 45rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Vertically center the child */
+      align-items: center; /* Horizontally center the child */
+  }
+  
+  .card-background3 {
+      padding-bottom: 9rem;
+      width: 70%;
+      height: auto;
+      border-bottom-left-radius: 10px; /* Adjust border radius to match the parent */
+      border-bottom-right-radius: 10px; /* Adjust border radius to match the parent */
+  }
+
+
+  .project-card4 {
+      display: flex;
+      background: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50); /* Gradient with 5 colors */
+      width: 18rem; /* Adjust width as needed */
+      height: 25rem;
+      min-width: 10rem;
+      min-height: auto;
+      max-width: 80rem;
+      max-height: auto;
+      border-radius: 5rem;
+      margin-top: -25rem;
+      margin-left: 65rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Vertically center the child */
+      align-items: center; /* Horizontally center the child */
+  }
+  
+  .card-background4 {
+      padding-bottom: 9rem;
+      width: 70%;
+      height: auto;
+      border-bottom-left-radius: 10px; /* Adjust border radius to match the parent */
+      border-bottom-right-radius: 10px; /* Adjust border radius to match the parent */
+  }
+
+  .cards-github {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; /* Shorthand for setting both left and right margins to auto */
+      width: 170rem;
+      height: 37rem;
+      min-width: 90rem;
+      min-height: auto;
+      max-width: 50rem;
+      max-height: auto;
+      border-radius: 10rem;
+      color: #00ff8b;
+      font-size: 2rem;
+      border: 0.1rem solid transparent; /* Set border with a transparent color */
+      border-image: linear-gradient(to bottom right, #1c99ff, #00b8d4, #00d7b3, #00ff8b, #4caf50) 1; /* Apply gradient as border image */
+    }
+    
+    .cards-github-head {
+      display: flex;
+      justify-content: center;
+      /* margin-left: auto;
+      margin-right: auto; */
+      padding-top: 1rem;
+      padding-right: 40rem;
+
+      width: auto;
+      height: 35rem;
+      min-width: 90rem;
+      min-height: auto;
+      max-width: 50rem;
+      max-height: auto;
+    }
+
+    .cards-github-label {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: 50rem;
+
+      text-align: center;
+      font-size: 2rem;
+      color: whitesmoke;
+
+      padding-top: 10rem;
+      padding-left: 1rem;
+    }
