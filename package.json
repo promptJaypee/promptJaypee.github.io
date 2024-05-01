@@ -6,11 +6,4 @@
     "gulp": "^5.0.0",
     "npm-prepare-dist": "^0.4.1"
   }
-
-  {
-    "name": "promptJaypee.github.io",
-    "scripts": {
-      "build": "tsc",
-      "postbuild": "npm-prepare-dist"
-    }
 }
